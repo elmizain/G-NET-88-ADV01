@@ -1,0 +1,60 @@
+﻿Q01
+     
+     Ageneric class is a class that can work with different data types using a type parameter sush as <T>.
+     Generic ara used to make code reusable , type safe , and more efficient.
+
+
+Q02
+
+     container <T> is a generic class that can store a value of any data type.
+     the Add() method is used to store a value, while  the Get() method is used to return the stored value.
+
+Q04
+    
+     Ageneric methods is a methods that can work with different data types using a type parameter sush as <T>.
+
+Q06
+
+    A generic interface is an interface that uses a type parameter <T>.
+    It allows the same interface to work with different data types while providing type safety and code reusability
+
+Q07
+
+    The struct constraint specifies that the type parameter must be a value type,
+    such as a struct, int, double, or bool.
+
+
+Q08
+
+    The class constraint specifies that the type parameter must be a reference type, such as a class
+
+
+
+Q09
+
+
+    The new() constraint specifies that the type argument must have a public parameterless constructor.
+    It allows us to create an instance of the type using new T().
+
+
+Q10
+
+
+    An interface constraint specifies that the generic type T must implement a specific interface.
+
+
+
+Q11
+
+
+    A base class constraint specifies that the generic type T must be a specific base class or derive from it. 
+    
+     
+   
+Q12
+
+    Multiple constraints are applied using the where keyword. We can specify more than one constraint separated by commas.
+
+
+
+
